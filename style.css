@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@600&family=Open+Sans:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --btn-clr: #dcb85f;
+    --bgc: #2B2922;
+}
+
+body{
+    background-color:#2B2922;
+    font-family: "Open Sans";
+}
+
+header{
+    padding: 3% 5%;
+    /* display: flex; */
+    /* background-color: red; */
+}
+
+header nav{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3em;
+    margin-left: 9em;
+}
+
+li{
+    color: rgb(152, 152, 152);
+    font-size: .8rem;
+}
+
+li:nth-child(1){
+    color: white;
+    font-size: .9rem;
+}
+
+button{
+    color: var(--btn-clr);
+    background-color: #2B2922;
+    border: var(--btn-clr) 2px solid;
+    border-radius: 5px;
+    padding: 7px 14px;
+}
+
+.company-title{
+    padding: 3% 5%;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+}
+
+.heading{
+    font-size: 2.9rem;
+    line-height: 5.5rem;
+    letter-spacing: -5px;
+    width: 60%;
+    color: white;
+    margin-top: -.5em;
+    /* width:; */
+    /* text-align: left; */
+}
+
+.justice{
+    color: var(--btn-clr);
+    
+}
+
+H1{
+    width: 90%;
+}
+
+.company-word{
+    width: 40%;
+    color: rgb(171, 171, 171);
+}
+
+p{
+    width: 90%;
+    line-height: 1.5rem; font-family: "Rubik";
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.justice-image{
+    height: fit-content;
+}
+.justice-image > img{
+    /* width: 10em; */
+    /* background-size: contain; */
+    width: 100%;
+    margin: 0;
+    padDING: 0;
+}
+
+.caurosel{
+    height: 100%;
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--bgc);
+    /* gap: 2%; */
+    width: 100%;
+    position: relative;
+    
+}
+
+div[class="caurosel"] > span{
+    padding: 2.7% 3.3%;
+    /* background: rgb(248, 0, 0); */
+    border-radius: 0;
+    margin: 0;
+    /* background-color: rgb(49, 36, 36); */
+    text-align: center;
+    
+}
+div[class="caurosel"] > span > span{
+    /* border-radius: ; */
+    /* border: rgb(59, 48, 48) 2px solid; */
+    padding: 30% 80%;
+    margin: 0;
+    border-radius: 100%;
+    position: relative;
+    right: 50%;
+    
+}
+
+span> .inside1{
+    color: #dcb85f;
+    border: #dcb85f 2px solid;
+    margin: 0;
+    /* margin-right: 10px; */
+    
+}
+div[class="caurosel"] > .outside1{
+    background-color: #474332;
+    color: #474332;
+    /* padding-right: 5px; */
+    margin: 0;
+}
+span > .inside2{
+    color: #ffffff ;
+    border:  2px solid #ffffff;
+    margin: 0;
+    /* margin-right: 10px; */
+    
+}
+div[class="caurosel"] > .outside2{
+    margin: 0;
+    background-color: #dcb85f;
+    /* color: #474332; */
+    /* padding-right: 5px; */
+}
